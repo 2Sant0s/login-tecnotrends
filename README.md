@@ -5,7 +5,7 @@
  <a href="#tech" title="technologies">Technologies</a> • 
  <a href="#about" title="about">About</a> • 
  <a href="#clone" title="clone">Clone</a> •
- <a href="https://github.com/2Sant0s/form-login-tecnotrends/blob/main/index.html">Project</a>
+ <a href="https://github.com/2Sant0s/login-tecnotrends/blob/main/index.html">Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
@@ -33,7 +33,7 @@
 To get a copy of this project, open your terminal and run:
 
 ```bash
-git clone https://github.com/2Sant0s/form-login-tecnotrends.git
+git clone https://github.com/2Sant0s/login-tecnotrends.git
 ```
 
 <h2 id="status">🚦 Status</h2>
