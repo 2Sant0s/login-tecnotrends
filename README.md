@@ -11,8 +11,10 @@
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="images/page-layout-1.png" width="60%">
-    <img src="images/mobile-layout.jpeg" width="30%">
+ <img src="images/tablet.jpeg" width="25%">
+     <img src="images/mobile.jpeg" width="30%">
+    <img src="images/desktop.jpeg" width="40%">
+   
 </p>
 
 <h2 id="tech">💻 Technologies</h2>
