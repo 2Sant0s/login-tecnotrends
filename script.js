@@ -25,7 +25,7 @@ function fieldValidation(event) {
 		user.focus();
 		event.preventDefault();
 
-		// oculta a msg e altera o comportamento da borda por de 2.5s
+		// oculta a msg e altera o comportamento da borda por de 2s
 		setTimeout(() => {
 			user.style.border = '';
 		}, 2000);
