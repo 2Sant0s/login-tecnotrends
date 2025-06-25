@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Login Page - TecnoTrends </h1>
+<h1 align="center" style="font-weight: bold;">Responsive Login Page </h1>
 
 <br>
 <p align="center">
