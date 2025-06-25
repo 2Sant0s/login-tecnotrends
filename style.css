@@ -107,6 +107,11 @@ a {
   filter: brightness(0.95);
 }
 
+#infoBox {
+  text-align: center;
+  margin-top: 15px;
+}
+
 /* Responsividade */
 /* CELULARES */
 @media (max-width: 480px) {
@@ -179,3 +184,4 @@ a {
     width: 100%;
   }
 }
+
