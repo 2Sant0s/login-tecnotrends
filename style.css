@@ -1,8 +1,8 @@
 body {
   display: flex;
-  justify-content: center;  
-  align-items: center;      
-  height: 100vh;            
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
   background: url(images/background.jpg);
   background-size: cover;
@@ -15,7 +15,7 @@ body {
   background-color: white;
   padding: 50px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
   display: flex;
@@ -24,7 +24,7 @@ body {
 
 .logo {
   display: block;
-  margin: 40px auto; 
+  margin: 40px auto;
   width: 250px;
 }
 
@@ -48,11 +48,12 @@ input[type="password"] {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 input[type="text"]:focus,
 input[type="password"]:focus {
   border: 1px solid orange;
   box-shadow: 0 0 0 2px rgba(255, 165, 0, 0.2);
-  outline: none; 
+  outline: none;
 }
 
 .password-container {
@@ -66,6 +67,7 @@ input[type="password"]:focus {
   width: 100%;
   padding-right: 20px;
 }
+
 .password-container i {
   position: absolute;
   top: 50%;
@@ -106,6 +108,7 @@ a {
 }
 
 /* Responsividade */
+/* CELULARES */
 @media (max-width: 480px) {
   .login-box {
     width: 90%;
@@ -131,5 +134,48 @@ a {
 
   .password-container {
     flex-direction: row;
+  }
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+  }
+
+  .login-box {
+    width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .logo {
+    width: 180px;
+    margin: 20px auto;
+  }
+
+  .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  .password-container {
+    width: 100%;
+  }
+
+  .password-container input {
+    width: 100%;
   }
 }
